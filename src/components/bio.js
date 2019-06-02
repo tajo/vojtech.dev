@@ -38,12 +38,11 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who lives and works in San
-              Francisco building useful things.
-              {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow him on Twitter
-              </a>
+              <strong>{author}</strong>. Builds open source stuff at{" "}
+              <a href="https://uber.github.io/">Uber</a>.{` `}
+              Uses <a href={`https://twitter.com/${social.twitter}`}>Twitter</a>
+              . Likes <a href={`https://github.com/${social.github}`}>GitHub</a>
+              . Lives in San Francisco.
             </p>
           </div>
         )
